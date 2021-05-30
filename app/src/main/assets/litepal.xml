@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--数据库名称-->
+    <dbname value="Database"></dbname>
+    <!--数据库版本号--><!--每次只要数据库发生变动， 版本号version都必须加1-->
+    <version value="4"></version>
+    <!--用于设定所有的映射模型,即你定义数据库表的类名路径--><!--表的写法是全类名+表名-->
+    <list>
+        <mapping class="com.example.gamecalendar.scheme.Scheme"></mapping>
+    </list>
+    <!-- 直接设置这个，就表示数据库存储的位置，直接打开手机存储就可以找到 -->
+</litepal>
